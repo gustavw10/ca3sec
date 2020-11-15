@@ -3,7 +3,6 @@ package facades;
 import dtos.UsersDTO;
 //import entities.Joke;
 import entities.User;
-import errorhandling.MissingInputException;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.TypedQuery;

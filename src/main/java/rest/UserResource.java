@@ -5,7 +5,6 @@
  */
 package rest;
 
-import errorhandling.MissingInputException;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import dtos.ChuckDTO;
@@ -132,5 +131,6 @@ public class UserResource {
         return TagDTO.getTagDTOList("Parallel fetching", fetched, endTime);
         
     }
+    
 }
 
