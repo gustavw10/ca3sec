@@ -11,7 +11,6 @@ import com.google.gson.GsonBuilder;
 import dtos.ChuckDTO;
 import dtos.TagDTO;
 import dtos.UsersDTO;
-//import entities.Joke;
 import entities.User;
 import facades.ScraperFacade;
 import facades.UserFacade;  
@@ -133,15 +132,5 @@ public class UserResource {
         return TagDTO.getTagDTOList("Parallel fetching", fetched, endTime);
         
     }
-//    
-//    @POST
-//    @Produces({MediaType.APPLICATION_JSON})
-//    @Consumes({MediaType.APPLICATION_JSON})
-//    public String addJoke (String joke) throws MissingInputException  {
-//        Joke jk = GSON.fromJson(joke, Joke.class);
-//        String thisuser = securityContext.getUserPrincipal().getName();
-//        FACADE.addJoke(jk, thisuser);
-//        return GSON.toJson("Joke added as favourite.");
-//    }
 }
 
